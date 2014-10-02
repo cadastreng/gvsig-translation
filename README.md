@@ -30,4 +30,4 @@ git clone https://github.com/cadastreng/gvsig-translation.git
 1. Портал [проекта gvSIG](http://www.gvsig.org/).
 2. Сайт [Ассоциации gvSIG](http://www.gvsig.com/).
 3. Блог [российского сообщества gvSIG](http://gvsigrussia.wordpress.com/).
-4. Твиттер российского сообщества gvSIG [@gvSIG_Russia]](http://twitter.com/gvSIG_Russia).
+4. Твиттер российского сообщества gvSIG [@gvSIG_Russia](http://twitter.com/gvSIG_Russia).
