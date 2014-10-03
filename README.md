@@ -7,7 +7,7 @@ This project contains Russian translation files for open source GIS  [gvSIG 2.1]
 Поддерживается следующая структура репозитория:
 
 ```
-2.1/                      номер версии
+2.1/                      номер версии gvSIG
     ru-strings/           рабочий каталог с файлами .properties
 ```
 
