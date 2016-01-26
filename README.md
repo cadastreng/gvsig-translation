@@ -1,13 +1,16 @@
 # gvSIG Translation #
-This project contains Russian translation files for open source GIS  [gvSIG 2.1](http://www.gvsig.org) developed by  [gvSIG Association](http://www.gvsig.com) (Valencia, Spain).
+This project contains Russian translation files for open source GIS  [gvSIG 2.1 and gvSIG 2.3](http://www.gvsig.org) developed by [gvSIG Association](http://www.gvsig.com) (Valencia, Spain).
 
-Проект содержит файлы перевода на русский язык интерфейса пользователя открытой ГИС gvSIG 2.1, разрабатываемой Ассоциацией gvSIG (Валенсия, Испания).
+Проект содержит файлы перевода на русский язык интерфейса пользователя открытой ГИС gvSIG 2.1 и gvSIG 2.3, разрабатываемой Ассоциацией gvSIG (Валенсия, Испания).
 
 ## Структура репозитория
 Поддерживается следующая структура репозитория для ветки **master**, в которой хранится стабильная на данный момент версия файлов перевода:
 
 ```
-2.1/                      номер версии gvSIG
+2.1/                      перевод для версии gvSIG 2.1
+    ru-strings/           рабочий каталог с файлами .properties
+    ru-strings/stable/    архивный каталог, содержащий стабильную версию файлов .properties
+2.3/                      перевод для версии gvSIG 2.3
     ru-strings/           рабочий каталог с файлами .properties
     ru-strings/stable/    архивный каталог, содержащий стабильную версию файлов .properties
 ```
@@ -16,7 +19,12 @@ This project contains Russian translation files for open source GIS  [gvSIG 2.1]
 ~~Именно ветка **develop** должна быть текущей при работе с файлами перевода. Поэтому **перед тем как зафиксировать  изменения (сделать коммит) в файле перевода *text_ru.properties* убедитесь, что текущей является именно ветка develop.**~~
 
 ## Клонирование репозитория
-Чтобы загрузить локальную копию репозитория, вам необходимо предварительно установить [**git**](http://git-scm.com/), распределённую систему управления версиями файлов. После установки **git** откройте окно терминала и введите команду:
+Чтобы загрузить локальную копию репозитория, вам необходимо предварительно установить [**git**](http://git-scm.com/), распределённую систему управления версиями файлов. После установки **git** откройте окно терминала, перейдите в рабочий каталог
+
+```
+cd <имя рабочего каталога>
+```
+и введите команду:
 
 ```
 git clone https://github.com/cadastreng/gvsig-translation.git
